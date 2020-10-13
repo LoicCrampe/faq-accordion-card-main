@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body {
+    background-color: hsl(273, 75%, 66%);
+    Font-size: 12px
+}
+
+.title {
+    text-align: center;
+}
+
+.bg-shadow {
+    background-image: url(./images/bg-pattern-mobile.svg);
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.bg-girl {
+    background-image: url(./images/illustration-woman-online-mobile.svg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    top: 25px;
+}
+
+#content {
+    padding: 0 20px;
+    margin: 0 25px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+#content>.questions>div {
+    border-bottom: hsl(240, 5%, 91%) 1px solid;
+    margin: 5px 0;
+}
+
+#content>div:last-child {
+    padding-bottom: 50px;
+}
